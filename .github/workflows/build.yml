@@ -18,6 +18,7 @@ jobs:
           flake8 otbenchmark
           black-nb --check examples
           black-nb --check examples-on-server
+          make html -C doc
       - name: Test
         shell: bash -l {0}
         run: |

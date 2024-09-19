@@ -40,10 +40,10 @@ class ReliabilityBenchmarkProblem:
         probability : float
             The exact probability.
 
-        Example
-        -------
-        problem  = ReliabilityBenchmarkProblem(name, thresholdEvent,
-                                               probability)
+        Examples
+        --------
+        >>> import otbenchmark as otb
+        >>> problem = otb.ReliabilityBenchmarkProblem(name, thresholdEvent, probability)  # doctest: +SKIP
         """
         self.name = name
         self.thresholdEvent = thresholdEvent
