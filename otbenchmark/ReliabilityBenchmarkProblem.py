@@ -43,7 +43,8 @@ class ReliabilityBenchmarkProblem:
         Examples
         --------
         >>> import otbenchmark as otb
-        >>> problem = otb.ReliabilityBenchmarkProblem(name, thresholdEvent, probability)  # doctest: +SKIP
+        >>> problem = otb.ReliabilityBenchmarkProblem(
+        ...     name, thresholdEvent, probability)
         """
         self.name = name
         self.thresholdEvent = thresholdEvent

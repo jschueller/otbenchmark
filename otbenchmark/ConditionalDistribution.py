@@ -101,8 +101,8 @@ class ConditionalDistribution(ot.PythonDistribution):
         # We condition X = (X0, X1, X2) given X1=2.0, X2=3.0
         >>> conditionalIndices = [1, 2]
         >>> conditionalRefencePoint = [2.0, 3.0]
-        >>> conditionalDistribution = ot.Distribution(
-        ...     otb.ConditionalDistribution(distribution, conditionalIndices, conditionalRefencePoint))
+        >>> conditionalDistribution = ot.Distribution(otb.ConditionalDistribution(
+        ...     distribution, conditionalIndices, conditionalRefencePoint))
         # PDF
         >>>  computed = conditionalDistribution.computePDF([1.0])
         """

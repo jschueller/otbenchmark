@@ -39,7 +39,9 @@ class NLOscillatorSensitivity(SensitivityBenchmarkProblem):
         * the masses mp and ms
         * spring stiffnesses kp and ks
         * natural frequencies ωp and ωs
-        * damping ratios ξp and ξs, where the subscripts p and s respectively refer to the primary and secondary oscillators.
+        * damping ratios ξp and ξs
+
+        where the subscripts p and s respectively refer to the primary and secondary oscillators.
 
         The variables in the model are:
         * Fs : the force capacity of the secondary spring,
