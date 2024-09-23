@@ -9,7 +9,6 @@ import numpy as np
 
 class CheckSensitivityBenchmarkMetaAlgorithm(unittest.TestCase):
     def test_SensitivityBenchmarkMetaAlgorithm(self):
-        ot.Log.Show(ot.Log.NONE)
         problem = otb.IshigamiSensitivity()
         exact_first_order = problem.getFirstOrderIndices()
         exact_total_order = problem.getTotalOrderIndices()

@@ -9,7 +9,6 @@ import openturns as ot
 
 class CheckSensitivityDistribution(unittest.TestCase):
     def test_draw(self):
-        ot.Log.Show(ot.Log.NONE)
         problem = otb.IshigamiSensitivity()
         metaSAAlgorithm = otb.SensitivityBenchmarkMetaAlgorithm(problem)
         benchmark = otb.SensitivityDistribution(

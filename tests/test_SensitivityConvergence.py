@@ -10,7 +10,6 @@ import numpy as np
 
 class CheckSensitivityConvergence(unittest.TestCase):
     def test_plotConvergenceGrid(self):
-        ot.Log.Show(ot.Log.NONE)
         problem = otb.IshigamiSensitivity()
         metaSAAlgorithm = otb.SensitivityBenchmarkMetaAlgorithm(problem)
         benchmark = otb.SensitivityConvergence(
@@ -27,7 +26,6 @@ class CheckSensitivityConvergence(unittest.TestCase):
         otv.View(grid)
 
     def test_computeError(self):
-        ot.Log.Show(ot.Log.NONE)
         problem = otb.IshigamiSensitivity()
         metaSAAlgorithm = otb.SensitivityBenchmarkMetaAlgorithm(problem)
         benchmark = otb.SensitivityConvergence(
@@ -49,7 +47,6 @@ class CheckSensitivityConvergence(unittest.TestCase):
         print(total_order_AE)
 
     def test_computeSobolSample(self):
-        ot.Log.Show(ot.Log.NONE)
         problem = otb.IshigamiSensitivity()
         metaSAAlgorithm = otb.SensitivityBenchmarkMetaAlgorithm(problem)
         benchmark = otb.SensitivityConvergence(
@@ -68,7 +65,6 @@ class CheckSensitivityConvergence(unittest.TestCase):
         print(total_order_table)
 
     def test_plotConvergenceCurveSampling(self):
-        ot.Log.Show(ot.Log.NONE)
         problem = otb.IshigamiSensitivity()
         metaSAAlgorithm = otb.SensitivityBenchmarkMetaAlgorithm(problem)
         benchmark = otb.SensitivityConvergence(
@@ -85,7 +81,6 @@ class CheckSensitivityConvergence(unittest.TestCase):
         otv.View(graph)
 
     def test_plotConvergenceCurveChaos(self):
-        ot.Log.Show(ot.Log.NONE)
         problem = otb.IshigamiSensitivity()
         metaSAAlgorithm = otb.SensitivityBenchmarkMetaAlgorithm(problem)
         benchmark = otb.SensitivityConvergence(
