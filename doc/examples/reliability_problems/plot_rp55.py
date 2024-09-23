@@ -22,7 +22,6 @@ import openturns.viewer as otv
 
 # %%
 # Disable warnings
-ot.Log.Show(ot.Log.NONE)
 
 # %%
 problem = otb.ReliabilityProblem55()

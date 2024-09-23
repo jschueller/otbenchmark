@@ -20,7 +20,6 @@ import openturns.viewer as otv
 
 # %%
 # Avoid mixture warnings
-ot.Log.Show(ot.Log.NONE)
 
 # %%
 # Distribution

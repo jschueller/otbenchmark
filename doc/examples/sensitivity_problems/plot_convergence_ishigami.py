@@ -26,7 +26,6 @@ import numpy as np
 # WRN - The estimated total order Sobol index (2) is lesser than first order index ...
 # ```
 # Lots of these messages are printed in the current Notebook. This is why we disable them with:
-ot.Log.Show(ot.Log.NONE)
 
 
 # %%

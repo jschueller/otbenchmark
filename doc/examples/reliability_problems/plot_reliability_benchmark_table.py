@@ -14,7 +14,6 @@ import pandas as pd
 from tqdm import tqdm
 
 # %%
-ot.Log.Show(ot.Log.NONE)
 
 # %%
 # We import the list of reliability problems.
